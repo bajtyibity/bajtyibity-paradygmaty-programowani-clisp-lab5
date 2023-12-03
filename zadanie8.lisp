@@ -1,0 +1,11 @@
+(defun suma-kwadratow (start end) (let ((suma 0)) (dotimes (i (- end start)) (setq suma (+ suma (* (+ start i) (+ start i))))) suma))
+
+(write(suma-kwadratow 1 1))
+(terpri)
+(write(suma-kwadratow 1 2))
+(terpri)
+(write(suma-kwadratow 1 3))
+(terpri)
+(write(suma-kwadratow 1 4))
+(terpri)
+(write(suma-kwadratow 1 5))

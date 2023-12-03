@@ -1,0 +1,11 @@
+(defun fibonacci (n)(if (<= n 1) n (+ (fibonacci (- n 1)) (fibonacci (- n 2)))))
+
+(write(fibonacci 1))
+(terpri)
+(write(fibonacci 2))
+(terpri)
+(write(fibonacci 3))
+(terpri)
+(write(fibonacci 4))
+(terpri)
+(write(fibonacci 5))

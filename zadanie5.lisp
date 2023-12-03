@@ -1,0 +1,11 @@
+(defun silnia (n) (if (= n 0) 1 (* n (silnia (- n 1)))))
+
+(write(silnia 1))
+(terpri)
+(write(silnia 2))
+(terpri)
+(write(silnia 3))
+(terpri)
+(write(silnia 4))
+(terpri)
+(write(silnia 5))
